@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="ClockTinker" />
-      </profile>
-    </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Clock" target="1.5" />
       <module name="ClockTinker" target="1.6" />
@@ -37,7 +29,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Clock.iml" filepath="$PROJECT_DIR$/Clock.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ClockTinker/ClockTinker.iml" filepath="$PROJECT_DIR$/ClockTinker/ClockTinker.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
@@ -45,63 +36,6 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-  </component>
-  <component name="libraryTable">
-    <library name="Maven: com.alibaba.jvm.sandbox:sandbox-api:1.3.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/jvm/sandbox/sandbox-api/1.3.1/sandbox-api-1.3.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/jvm/sandbox/sandbox-api/1.3.1/sandbox-api-1.3.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/jvm/sandbox/sandbox-api/1.3.1/sandbox-api-1.3.1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.alibaba.jvm.sandbox:sandbox-common-api:1.3.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/jvm/sandbox/sandbox-common-api/1.3.1/sandbox-common-api-1.3.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/jvm/sandbox/sandbox-common-api/1.3.1/sandbox-common-api-1.3.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/jvm/sandbox/sandbox-common-api/1.3.1/sandbox-common-api-1.3.1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: javax.annotation:javax.annotation-api:1.2">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: javax.servlet:javax.servlet-api:3.0.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.kohsuke.metainf-services:metainf-services:1.7">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/kohsuke/metainf-services/metainf-services/1.7/metainf-services-1.7.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/kohsuke/metainf-services/metainf-services/1.7/metainf-services-1.7-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/kohsuke/metainf-services/metainf-services/1.7/metainf-services-1.7-sources.jar!/" />
-      </SOURCES>
-    </library>
   </component>
   <component name="masterDetails">
     <states>
